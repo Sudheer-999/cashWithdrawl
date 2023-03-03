@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.act-container {
+  background-color: #150b3e;
+  height: 60%;
+  width: 80%;
+  border-radius: 15px;
+  font-family: Roboto;
+  padding: 40px;
+  padding-top: 50px;
+  overflow: auto;
+}
+
+.top-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.alpha-logo {
+  background-color: #c7d2fe;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: #7c3aed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 18px;
+}
+
+.act-holder {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.mid-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bal-head {
+  font-size: 23px;
+  color: #585076;
+  font-weight: 500;
+}
+
+.bal {
+  font-size: 35px;
+  color: #d4d2db;
+  margin-bottom: 15px;
+}
+
+.curr {
+  color: #585076;
+  align-self: flex-start;
+}
+
+.bal-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head2 {
+  color: #d4d2db;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.desc {
+  color: #585076;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+
+.denoms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
